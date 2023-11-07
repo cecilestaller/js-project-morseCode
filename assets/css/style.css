@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    display: flex;
+    height: 80vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+section form {
+    display: flex;
+    flex-direction: column;
+    margin: 5%;
+}
+
+section form textarea {
+    margin-bottom: 20px;
+    border-radius: 20px;
+    padding: 20px;
+    border: 1px solid purple;
+}
+
+section form input {
+    padding: 20px;
+    border-radius: 20px;
+    background-color: lightpink;
+    border: none;
+    font-size: 1.25rem;
+}
+
+section form input:hover {
+    background-color: purple;
+    color: white;
+}
+
+section p {
+    border: 1px solid purple;
+    min-height: 100px;
+    width: 80%;
+    border-radius: 20px;
+    padding: 30px;
+}
